@@ -2,7 +2,7 @@
 namespace Zahidcse\Usaddress;
 class Address
 {
-       public function validateUsStreet($str) {
+       public static function validateUsStreet($str) {
 
         //$str = "345 Park Avenue New York, NY 10019";
         $addressarray = explode(',', $str);
