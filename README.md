@@ -11,13 +11,12 @@ composer install
 # How does it work
 This package will validate Only us address with zip code and street number other wise it will not validate.
 # How to use
- 
+ ```php
  Use Zahidcse\Usaddress\Address;
- #
  $str = "345 Park Avenue New York, NY 10019";
- #
  if(Address::validateUsStreet($str)){
     /* Valid */
  }
+ ```
 
 
