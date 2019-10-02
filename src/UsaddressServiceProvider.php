@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Providers;
+namespace Zahidcse\Usaddress;
 
 use Illuminate\Support\ServiceProvider;
 
-class HelloworldServiceProvider extends ServiceProvider
+class UsaddressServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -23,6 +23,6 @@ class HelloworldServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd('HI');
+        
     }
 }
