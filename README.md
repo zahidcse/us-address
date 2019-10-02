@@ -13,7 +13,7 @@ to your root composer.json file and run
 composer install
 ```
 # How does it work
-This package will validate Only us address with zip code and street number other wise it will not validate.
+This package will validate only United State address with zip code and street. 
 # How to use
  ```php
  Use Zahidcse\Usaddress\Address;
