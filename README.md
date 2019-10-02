@@ -1,8 +1,12 @@
-Laravel Package for validate Us Street Address
+Laravel package for validate Us street address
 # Installation 
 Open Your Terminal and run the following command on your laravel installaing directory 
-  composer require zahidcse/us-address
-Or add the   "zahidcse/us-address": "*"  to your root composer.json file and run  composer install
+#
+composer require zahidcse/us-address
+#
+Or add the   "zahidcse/us-address": "*"  to your root composer.json file and run 
+#
+composer install
 
 # How does it work
 This package will validate Only us address with zip code and street number other wise it will not validate.
