@@ -1,7 +1,7 @@
 {
     "name": "zahidcse/us-address",
     "description": "Us Street Address Validator",
-    "keywords": ["laravel"],
+    "keywords": ["laravel","Us Address", "Us Address Validator"],
     "license": "MIT",
     "authors": [
         {
