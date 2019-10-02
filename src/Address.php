@@ -41,7 +41,7 @@ class Address
 
 
 
-        if ($validatiopassed >= 2 && $statepassed && ($streetpassed >= 1 || $zippassed)) {
+        if ($validatiopassed >= 2 && $statepassed && $streetpassed >= 1 && $zippassed) {
             return true;
         } else {
             return false;
